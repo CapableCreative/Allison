@@ -19,7 +19,7 @@ class Routes extends React.Component {
               <Route exact path="/registration"><Registration /></Route>
               <Route exact path="/play">        <Play />        </Route>
               <Route exact path="/team">        <Team />        </Route>
-              <Redirect exact from="/" to="/welcome" />
+              <Redirect from="/" to="/welcome" />
           </Switch>
         </>
     )
