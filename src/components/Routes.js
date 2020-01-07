@@ -1,6 +1,6 @@
 // Standard React import to make this a React Component + React Router to allow proper HTML routing out-of-the-box from React
 import React from 'react'
-import {Route, Switch}from 'react-router-dom';
+import {Route, Switch, Redirect}from 'react-router-dom';
 // Import of PAGE level components
 import Registration from '../components/Registration';
 import App from '../App';
@@ -19,6 +19,7 @@ class Routes extends React.Component {
               <Route exact path="/registration"><Registration /></Route>
               <Route exact path="/play">        <Play />        </Route>
               <Route exact path="/team">        <Team />        </Route>
+              <Redirect exact from="/" to="/welcome" />
           </Switch>
         </>
     )
