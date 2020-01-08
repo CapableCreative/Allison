@@ -27,3 +27,5 @@ if (process.env.NODE_ENV === 'production') {
    res.redirect('/index.html');
 });
 }
+
+server.listen(process.env.PORT || port);
