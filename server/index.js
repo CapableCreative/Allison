@@ -1,19 +1,4 @@
 
-const path =  require("path");
-const router = require("express").Router();
-const apiRoutes = require("./api");
-
-// API ROUTES
-router.use("/api", apiRoutes);
-
-// If no API routes are hit, send the React app
-router.use((req, res) =>
-    res.sendFile(path.join(__dirname, "../../client/build/index.html"))
-);
-
-module.exports = router;
-
-/*
 const express = require('express');
 const bodyParser = require('body-parser');
 const pino = require('express-pino-logger')();
@@ -42,4 +27,3 @@ app.listen(PORT, () =>
   console.log('Express server is running on localhost:3000'),
   console.log(__dirname)
 );
-*/
