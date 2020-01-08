@@ -17,3 +17,7 @@ app.get('/api/greeting', (req, res) => {
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
+
+app.listen(PORT, () =>
+  console.log('Express server is running on localhost:3001')
+);
