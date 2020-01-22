@@ -1,0 +1,575 @@
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(188,230,251,1) 100%);
+    position: relative;
+    font-family: 'Poppins', 'Montserrat', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    font-size: 12px;
+}
+h1 {
+    font-family: 'riffic_freebold', 'Monteserrat', Arial, Helvetica, sans-serif;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100%;
+}
+#radial {
+    position: relative;
+    z-index: -1;
+    width: 200%;
+    max-width: 300%;
+    top: -170vh;
+    left: -50%;
+}
+.appBody{
+    position: absolute;
+    z-index: 2;
+    top: 0vh;
+}
+img {
+    max-width: 100%;
+}
+.rainbow {
+    background: url('../img/rainbow.png') no-repeat calc(50% + 300px) calc(100% + 50px);
+    height: 100vh;
+    width: 100%;
+    background-size: 145%;
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.allison-logo {
+    padding: 30px 0px 0px;
+}
+.register {
+    background: url('../img/cloudBkgrd.png') no-repeat center center;
+    background-size: contain;
+    align-items: center;
+    position: relative;
+    top: 10vh;
+    font-family: 'riffic_freebold', 'Yanone Kaffeesatz', sans-serif;
+    transform: rotate(2deg);
+    text-align: center;
+}
+.register button {
+    font-family: 'riffic_freebold', 'Poppins', 'Montserrat', helvetica;
+    font-size: 30px;
+    color: #FFF;
+    padding: 10px 50px;
+    line-height: 30px;
+    border-radius:20px;
+    background-color: orange;
+    border: 3px solid darkorange;
+    text-shadow: 2px 2px darkorange;
+    margin-top: -20px;
+}
+.h1blackDescriptive {
+    font-size: 30px;
+    line-height: 45px;
+    padding-top: 25px;
+}
+.h1kids {
+    color: #7753AB;
+    font-size: 10rem;
+    line-height: 12rem;;
+    margin: 0px;
+}
+.h1about {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-top: -20px;  
+}
+.h1handw {
+    color: #32AEDF;
+}
+.register h1 {
+    position: relative;
+    top: 15%;
+    padding: 30px 20px 0px;
+    text-align: center;
+}
+.register h1 span {
+    display: block;
+}
+.register .askParent {
+    font-size: 15px;
+    font-style: italic;
+    margin: none;
+    padding: none;
+    line-height: 20px;
+    display:block;
+}
+
+/* ----------------- LOGIN ---------------- */
+#login {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 30vh;
+}
+#login input {
+    display: inline;
+    width: 35%;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(18,123,170,.5);
+    height: 50px;
+    padding: 15px;
+    font-family: 'riffic_freebold', 'Poppins', none;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 900;
+    color: #666;
+    margin-right: 7px;
+}
+#login input:first-child {
+    border-radius: 50px 0px 0px 50px;
+    height: 50px;
+}
+#login button {
+    position: relative;
+    top: -1px;
+    background: #7753AB;
+    height: 50px;
+    border: 3px solid #FFF;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 900;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    font-family: 'riffic_freebold', 'Poppins', none;
+    text-align: center;
+    width: 20%;
+}
+.small-logo {
+    max-width: 200px;
+    height: auto;
+    margin: 30px auto;
+    text-align: center;
+    display:block;
+}
+/* -- REGISTER ---------------------------------- */
+form.border.border-light.p-5 {
+    background: rgba(255,255,255,0.7);
+    margin-top: 0px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(18,123,170,.5);
+}
+.register-logo {
+    position: relative;
+    z-index: 3;
+    margin-bottom: -200px;
+    top: -200px;
+    display: none;
+}
+.border-light {
+  padding: 20px;
+}
+.border-light p.h4 {
+  margin-bottom: 20px;
+  font-family: 'riffic_freebold','Montserrat',helvetica;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+}
+.border-light input {
+  margin: 10px 0px;
+  max-width: calc(100%);
+  font-family: 'riffic_freebold', 'Montserrat', helvetica;
+  font-size: 20px;
+}
+.border-light label {
+  font-family: 'riffic_freebold', 'Montserrat',helvetica;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 5px;
+}
+.border-light button {
+  width: calc(100%);
+  font-family: 'riffic_freebold','Montserrat',helvetica;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+  font-size: 25px;
+  border-radius: 10px;
+  border: 3px solid #FFF;
+  box-shadow: -2px 4px 0px rgba(0,0,0,0.25);
+  transition: all .25s ease .125s;
+    }
+    .border-light button:hover {
+        box-shadow: none;
+    }
+
+/* -- WELCOME ----------------------------------- */
+.welcomeBkgrd {
+    background: url('../img/allisonNhill.png') center bottom no-repeat;
+    height: 100vh;
+}
+.play-btn.col-md-4, .my-btn.col-md-4 {
+    height: 80px;
+    border: 5px solid #FFF;
+    box-shadow: 0px 0px 30px rgba(18,123,170,.5) ;
+    border-radius: 0px 0px 40px 40px;
+    color: #FFF;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: -5px auto 0px;
+    font-family: 'riffic_freebold', 'Poppins', sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    padding-top: 15px;
+    font-style: italic;
+    transition: all .5s ease .125s;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.play-btn a, .my-btn a {
+    padding: none;
+    margin: none;
+    color: #FFF;
+    transition: all .125s ease .0125s;
+    font-size: 22px;
+    text-decoration: none;
+    }
+    .play-btn a:hover, .my-btn a:hover {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 28px;
+    }
+.play-btn {
+    background: #F8735B;
+}
+.my-btn {
+    background: #90D9FA;
+}
+.healthy-btn {
+    background: #FCA300;
+}
+.story-btn {
+    background: #9087C2;
+}
+.appBody .username {
+    text-align: center;
+    background: url(../img/cloudBkgrd.png) no-repeat center center;
+    background-size: contain;
+    padding: 40px;
+}
+.appBody .username h2 {
+    font-family: 'riffic_freebold';
+    font-size: 8rem;
+    color: purple;
+    transform: rotate(-3deg);
+    -webkit-text-stroke: 1px #FFF;
+    margin-top: -40px;
+}
+.username h3 {
+    font-family: 'Montserrat', condensed, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.username h3 span {
+    font-family: 'riffic_freebold', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.username h3 .calories {
+    color: #069;
+}
+.username h3 .carbs {
+    color: #e21e2d;
+}
+.username h3 .protiens {
+    color: purple;
+}
+.username h3 .fats {
+    color: #F8735B;
+}
+
+/* -- PLAY PAGE -------------------------------- */
+.interactive, .stats {
+    padding: 20px 20px 20px 40px;
+}
+
+.foodItem {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    transition: all .25s;
+    position: relative;
+    top: 0px;
+    }
+    .foodItem:hover {
+        top: -15px;
+    }
+.status h4 {
+  color: #000;
+  font-family: 'Yanone Kaffeesatz';
+  position: relative;
+  left: 50px;
+  top: 6px;
+  width: 200px;
+  height: 20px;
+}
+.status h4 span {
+  color: #069;
+  background: rgba(255,255,255,1);
+  padding: 8px;
+  position: relative;
+  left: -70px;
+  top: -31px;
+  border-radius: 3px;
+  border: 2px solid #069;
+  font-size: 36px;
+}
+#mood {
+  font-family: 'riffic_freebold','Montserrat',sans-serif;
+  font-size: 4rem;
+}
+.stats h1, .stats h2{
+  font-family: 'riffic_freebold', 'Montserrat',sans-serif;
+}
+.stats h1 {
+  font-size: 2rem;
+  padding: 0px 0px;
+  margin: -20px 0px 10px;
+}
+#mood .state {
+  color: #9087C2;
+  font-size: 4rem;
+  line-height: 4rem;
+}
+#mood .tired {
+  color: #069;
+}
+.carbMood .howmuch, .fatMood .howmuch, .protienMood .howmuch {
+  font-size: 4rem;
+  color: #e21e2d;
+}
+#mood .why {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+#mood br {
+    height: 1px;
+}
+/* ----------- APP FOOTER ----------------------- */
+
+.appFooter {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background: #3aafdc;
+    height: 60px;
+    bottom: 0px;
+    text-align: center;
+    color: #FFF;
+    border-top: 5px solid #FFF;
+}
+.appFooter p {
+    line-height: 55px;
+}
+
+/* ---------- ACTION TEXT ---------------------- */
+.actionWrap {
+    text-align: center;
+    padding: 20px;
+    transition: all 1s ease .125s;
+}
+.actionWrap h3 span{
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: #3aafdc;
+    -webkit-text-fill-color: #3aafdc; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    letter-spacing: -3px;
+    -webkit-text-stroke-color: #FFF;
+    text-shadow: 0px 10px 20px rgba(18,123,170,.5);
+}
+.actionWrap h4 span{
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #7753AB;
+    text-shadow: 0px 0px 10px #FFF;
+    transform: skewY(5deg);
+}
+
+.macroStats .carbStat, .macroStats .proStat, .macroStats .fatStat {
+    height: 55px;
+    border: 2.5px #FFF solid;
+    width: calc(100% - 60px);
+    margin: 0px 20px;
+    border-radius: 10px;
+    background: rgba(18,123,170,.5);
+}
+.carbMeter, .fatMeter, .proMeter {
+    height: 55px;
+    width: 0px;
+    border-radius: 10px;
+    border: 3px solid #FFF;
+    position: relative;
+    left: -17px;
+    top: -2.5px;
+    transition: all .5s ease .125s;
+    max-width: calc(100% + 35px);
+}
+.carbMeter {
+    background: #F8735B;
+}
+.proMeter {
+    background: #9087C2;
+}
+.fatMeter {
+    background: #32AEDF;
+}
+
+.actionWrap h3 span.foodEaten {
+  font-size: 7rem;
+  font-family: 'riffic_freebold';
+  letter-spacing: -4px;
+}
+.actionWrap h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 4rem;
+}
+.actionWrap h4 {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 3rem;
+}
+.actionWrap span.mainMacro {
+  font-size: 8rem;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: rgba(255,255,255,0.3);
+}
+
+@media screen and (max-width: 1060px) {
+    .actionWrap h3 span.foodEaten {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    img.small-logo {
+        padding: 0px 0px 0px 0px;
+        margin: 0px auto 0px;
+    }
+    .interactive.col-md-4 {
+        width: 40%;
+        height: 100vh;
+    }
+    .welcomeBkgrd {
+        background-position-x: 350px;
+        background-position-y: 290px;
+    }
+    .col-md-4.actionWrap {
+        position: absolute;
+        bottom: 50px;
+        width: 340px;
+        left: 30px;
+    }
+    .actionWrap span.mainMacro {
+        font-size: 2rem;
+    }
+    div.col-md-4.stats {
+        position: absolute;
+        width: 50%;
+        right: -40px;
+    }
+    #mood span.why {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 960px) {
+    .mbl-only {display: none;}
+}
+@media screen and (max-width: 995px) {
+    .mbl-only {display: inline-block;}
+    .col-md-4.interactive {
+        width: 60%;
+    }
+    div.col-md-4.stats {
+        width: 45%;
+        top: 50px;
+    }
+    img.small-logo {
+        margin: 0px 0px;
+        padding: 10px;
+    }
+    .appBody {
+        background-position-x: 400px;
+        background-position-y: bottom;
+        background-size: 60%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .col-md-4.interactive {
+        width: 100%;
+    }
+    div.col-md-4.stats{
+        width: 100%;
+        top: 350px;
+        left: 20px;
+    }
+    div.col-md-4.actionWrap {
+        top: -20px;
+        left: 50%;
+        width: 50%;
+    }
+    div.col-md-4.actionWrap .foodEaten {
+        font-size: 20px;
+        -webkit-text-stroke-width: 0px;
+        letter-spacing: 0px;
+        line-height: 24px;
+    }
+    div.col-md-4.actionWrap h3, div.col-md-4.actionWrap h4 {
+        font-size: 24px;
+        line-height: 20px;
+    }
+    .appBody {
+        background-position-x: 0px;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 468px) {
+    .appBody {
+        background-position-x: center;
+    background-size: 80%;
+    }
+    .col-xs-2 {
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    div.actionWrap {
+        display: none;
+    }
+    div.col-md-4.stats h1 {
+        width: 50%;
+        position: absolute;
+        top: -47vh;
+        text-align: center;
+        right: 10px;
+    }
+    .macroStats .carbStat, .macroStats .proStat, .macroStats .fatStat, .carbMeter, .fatMeter, .proMeter {
+        height: 35px;
+    }
+    .status h4 {
+        top: -2px;
+        color: #FFF;
+        text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+    }
+    .status h4 span {
+        height: 35px;
+        font-size: 18px;
+        text-shadow: none;
+        top: -25px;
+    }
+    .foodItem {
+        margin-bottom: 5px; 
+    }
+}
