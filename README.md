@@ -1,5 +1,5 @@
 # Project Name
-Munch Good
+Munch Good - Updated
 
 ## Description
 This is an app designed to help teach kids about healthy food choices. It was built with React, Node and Express.
